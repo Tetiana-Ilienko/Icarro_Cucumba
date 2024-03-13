@@ -28,14 +28,15 @@ public class AddCarSteps {
                 "Comfortable and reliable business class car. Ideal for business trips and travel.");
     }
 
-    @And("User uploads a photo of the car")
-    public void upload_photo(){
-        try {
-            new AddCarPage(driver).upload("C:/AIT/QA/2.jpg");
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+//    @And("User uploads a photo of the car")
+//    public void upload_photo(){
+//        try {
+//            new AddCarPage(driver).upload("C:/AIT/QA/2.jpg");
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
+    //  And User uploads a photo of the car
 
     @And("User clicks on Submit button")
     public void click_submit(){
